@@ -1,0 +1,10 @@
+{
+  "experiment": "w9_undefined",
+  "core_analytes": [
+    "HGB",
+    "WBC",
+    "PLT",
+    "RBC",
+    "HCT"
+  ]
+}

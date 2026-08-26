@@ -1,0 +1,12 @@
+{
+  "margin": 0.14,
+  "min_count": 5,
+  "n_records": 727982,
+  "n_dropped": 1487,
+  "n_profiles": 40376,
+  "profiles_released": 5410,
+  "profiles_suppressed": 34966,
+  "profiles_suppressed_pct": 86.60095106003567,
+  "records_suppressed": 48591,
+  "records_suppressed_pct": 6.674752947188255
+}

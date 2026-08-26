@@ -1,0 +1,41 @@
+{
+  "experiment": "w7_spaceviz",
+  "margin": 0.14,
+  "n_graph": 250,
+  "n_proj": 1500,
+  "n_heat": 40,
+  "params_V14": [
+    "RBC",
+    "HCT",
+    "HGB",
+    "WBC",
+    "MCH",
+    "MCHC",
+    "MCV",
+    "RDW-SD",
+    "PLT",
+    "NEUT",
+    "LYMPH",
+    "MONO",
+    "EOS",
+    "BASO"
+  ],
+  "params_V10": [
+    "RBC",
+    "HCT",
+    "HGB",
+    "WBC",
+    "RDW-SD",
+    "PLT",
+    "NEUT",
+    "LYMPH",
+    "MONO",
+    "EOS"
+  ],
+  "drop_V10": [
+    "MCV",
+    "MCH",
+    "MCHC",
+    "BASO"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "experiment": "w6_geometry",
+  "margin": 0.14,
+  "variants": {
+    "V14": [
+      "RBC",
+      "HCT",
+      "HGB",
+      "WBC",
+      "MCH",
+      "MCHC",
+      "MCV",
+      "RDW-SD",
+      "PLT",
+      "NEUT",
+      "LYMPH",
+      "MONO",
+      "EOS",
+      "BASO"
+    ],
+    "V10": [
+      "RBC",
+      "HCT",
+      "HGB",
+      "WBC",
+      "RDW-SD",
+      "PLT",
+      "NEUT",
+      "LYMPH",
+      "MONO",
+      "EOS"
+    ]
+  }
+}

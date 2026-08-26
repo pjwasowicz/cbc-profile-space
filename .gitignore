@@ -1,0 +1,20 @@
+# Record-level laboratory data must never enter this repository.
+*.parquet
+*.pkl
+data-restricted/*
+!data-restricted/README.md
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

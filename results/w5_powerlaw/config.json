@@ -1,0 +1,7 @@
+{
+  "experiment": "w5_powerlaw",
+  "margin": 0.14,
+  "B": 200,
+  "xmin_cap": 300,
+  "min_tail": 50
+}

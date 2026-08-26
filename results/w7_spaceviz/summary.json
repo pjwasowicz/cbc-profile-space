@@ -1,0 +1,63 @@
+{
+  "margin": 0.14,
+  "V14": {
+    "n_records": 727982,
+    "n_profiles": 40376,
+    "n_analytes": 14,
+    "graph": {
+      "n_nodes": 244,
+      "n_edges": 603,
+      "n_isolated_dropped": 6
+    },
+    "projection_mds": {
+      "n_profiles": 1500,
+      "explained_variance": [
+        0.19097191512975778,
+        0.11090522822496006
+      ]
+    },
+    "projection_tsne": {
+      "n_profiles": 1500,
+      "perplexity": 30.0
+    },
+    "icicle": {
+      "shell_record_share": {
+        "0": 0.42225082488303284,
+        "1": 0.2204546266253836,
+        "2": 0.13379176957672032,
+        "3": 0.08605432551903756,
+        "4": 0.13744845339582573
+      }
+    }
+  },
+  "V10": {
+    "n_records": 727982,
+    "n_profiles": 14936,
+    "n_analytes": 10,
+    "graph": {
+      "n_nodes": 249,
+      "n_edges": 665,
+      "n_isolated_dropped": 1
+    },
+    "projection_mds": {
+      "n_profiles": 1500,
+      "explained_variance": [
+        0.1875430735196455,
+        0.11184386105995373
+      ]
+    },
+    "projection_tsne": {
+      "n_profiles": 1500,
+      "perplexity": 30.0
+    },
+    "icicle": {
+      "shell_record_share": {
+        "0": 0.49843540087529636,
+        "1": 0.2199848347898712,
+        "2": 0.12500858537711096,
+        "3": 0.07159929778483534,
+        "4": 0.08497188117288615
+      }
+    }
+  }
+}

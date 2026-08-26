@@ -1,0 +1,20 @@
+{
+  "experiment": "w8_correlation",
+  "method": "spearman",
+  "order": [
+    "RBC",
+    "HCT",
+    "HGB",
+    "MCV",
+    "MCH",
+    "MCHC",
+    "RDW-SD",
+    "PLT",
+    "WBC",
+    "NEUT",
+    "LYMPH",
+    "MONO",
+    "EOS",
+    "BASO"
+  ]
+}

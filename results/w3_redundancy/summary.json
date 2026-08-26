@@ -1,0 +1,114 @@
+{
+  "margin": 0.14,
+  "residuals": {
+    "r_mcv": {
+      "n": 728996,
+      "median_abs": 0.02505,
+      "p90_abs": 0.04503,
+      "p99_abs": 0.04953,
+      "max_abs": Infinity,
+      "rounding_threshold": 0.05,
+      "frac_within_rounding": 0.99974,
+      "frac_beyond_0.5": 1.5e-05
+    },
+    "r_mch": {
+      "n": 728996,
+      "median_abs": 0.02495,
+      "p90_abs": 0.04505,
+      "p99_abs": 0.04968,
+      "max_abs": Infinity,
+      "rounding_threshold": 0.05,
+      "frac_within_rounding": 0.99592,
+      "frac_beyond_0.5": 1.5e-05
+    },
+    "r_mchc": {
+      "n": 728996,
+      "median_abs": 0.02512,
+      "p90_abs": 0.04524,
+      "p99_abs": 0.04974,
+      "max_abs": 98.0,
+      "rounding_threshold": 0.05,
+      "frac_within_rounding": 0.99958,
+      "frac_beyond_0.5": 1.5e-05
+    },
+    "r_wbc": {
+      "n": 728619,
+      "median_abs": 0.0,
+      "p90_abs": 0.0,
+      "p99_abs": 0.0,
+      "max_abs": 79.0,
+      "rounding_threshold": 0.005,
+      "frac_within_rounding": 0.99994,
+      "frac_beyond_0.5": 1.6e-05
+    }
+  },
+  "variants": {
+    "V14": {
+      "n_params": 14,
+      "params": [
+        "RBC",
+        "HCT",
+        "HGB",
+        "WBC",
+        "MCH",
+        "MCHC",
+        "MCV",
+        "RDW-SD",
+        "PLT",
+        "NEUT",
+        "LYMPH",
+        "MONO",
+        "EOS",
+        "BASO"
+      ],
+      "n_records": 727982,
+      "n_profiles": 40376,
+      "coverage90_profiles": 2199,
+      "top1_share": 0.4223,
+      "n_singletons": 26214,
+      "singleton_fraction": 0.6492
+    },
+    "V10": {
+      "n_params": 10,
+      "params": [
+        "RBC",
+        "HCT",
+        "HGB",
+        "WBC",
+        "RDW-SD",
+        "PLT",
+        "NEUT",
+        "LYMPH",
+        "MONO",
+        "EOS"
+      ],
+      "n_records": 727990,
+      "n_profiles": 14938,
+      "coverage90_profiles": 312,
+      "top1_share": 0.4984,
+      "n_singletons": 7880,
+      "singleton_fraction": 0.5275
+    },
+    "V9": {
+      "n_params": 9,
+      "params": [
+        "RBC",
+        "HCT",
+        "HGB",
+        "RDW-SD",
+        "PLT",
+        "NEUT",
+        "LYMPH",
+        "MONO",
+        "EOS"
+      ],
+      "n_records": 727990,
+      "n_profiles": 10900,
+      "coverage90_profiles": 192,
+      "top1_share": 0.5084,
+      "n_singletons": 5445,
+      "singleton_fraction": 0.4995
+    }
+  },
+  "per_lab": "skipped - the data carry no column identifying the analyser"
+}

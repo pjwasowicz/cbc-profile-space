@@ -1,0 +1,4 @@
+variant,n_params,n_records,n_profiles,coverage90_profiles,top1_share,n_singletons,singleton_fraction
+V14,14,727982,40376,2199,0.4223,26214,0.6492
+V10,10,727990,14938,312,0.4984,7880,0.5275
+V9,9,727990,10900,192,0.5084,5445,0.4995

@@ -1,0 +1,27 @@
+name: verify
+
+# Recomputes the manuscript's numbers from the deposited aggregate data and
+# confirms the macro file matches the recorded pipeline outputs. Neither step
+# touches record-level data, so both can run in public CI.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: make verify
+      - run: make check
+      - name: No record-level data in the tree
+        run: |
+          ! find . -name '*.parquet' -o -name '*.pkl' | grep -q . \
+            || (echo "record-level data committed" && exit 1)

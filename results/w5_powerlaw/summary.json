@@ -1,0 +1,14 @@
+{
+  "margin": 0.14,
+  "B": 200,
+  "S_profiles": 40376,
+  "fit": {
+    "alpha": 1.8894,
+    "xmin": 103.0,
+    "KS_D": 0.0176,
+    "ntail": 396
+  },
+  "p_value": 0.97,
+  "verdict": "power law is plausible (not rejected)",
+  "note": "p = fraction of synthetic data sets with KS >= KS of the data; x_min candidates <= 300, minimum tail 50."
+}

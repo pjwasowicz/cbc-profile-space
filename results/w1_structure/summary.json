@@ -1,0 +1,27 @@
+{
+  "n_records": 727982,
+  "n_records_raw": 729469,
+  "n_dropped_undefined": 1487,
+  "n_profiles": 40376,
+  "coverage_profiles": {
+    "50%": 7,
+    "80%": 287,
+    "90%": 2199,
+    "95%": 9070,
+    "99%": 33097
+  },
+  "top1_share": 0.42225082488303284,
+  "n_singletons": 26214,
+  "singleton_fraction": 0.6492470774717654,
+  "zipf_ols": {
+    "zipf_slope": -0.9877364738179493,
+    "zipf_r2": 0.9343823077480747
+  },
+  "powerlaw_clauset": {
+    "alpha": 1.8894217204357489,
+    "xmin": 103.0,
+    "ks": 0.017642997241247738,
+    "n_tail": 396
+  },
+  "margin": 0.14
+}

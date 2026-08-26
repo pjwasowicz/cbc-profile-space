@@ -1,0 +1,17 @@
+{
+  "title": "Structure of the Discretized Complete Blood Count Profile Space: analysis code and aggregate data",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {"name": "Wąsowicz, Paweł", "orcid": "0009-0004-7139-9482",
+     "affiliation": "Andrzej Frycz Modrzewski Krakow University"},
+    {"name": "Swadźba, Jakub", "orcid": "0000-0001-8757-360X",
+     "affiliation": "Andrzej Frycz Modrzewski Krakow University"},
+    {"name": "Anyszek, Tomasz", "orcid": "0000-0003-3416-5658",
+     "affiliation": "Diagnostyka S.A."}
+  ],
+  "keywords": ["complete blood count", "reference intervals", "laboratory medicine",
+               "discretization", "reproducible research"],
+  "notes": "Record-level laboratory data are not included and cannot be shared publicly; the deposit is aggregate only, with profiles observed fewer than 5 times withheld as a disclosure-control measure."
+}

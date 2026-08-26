@@ -1,0 +1,70 @@
+{
+  "n_raw": 729469,
+  "n_dropped": 1487,
+  "dropped_fraction": 0.00204,
+  "n_fully_empty_records": 472,
+  "missing_by_param": {
+    "RDW-SD": 1079,
+    "MONO": 825,
+    "LYMPH": 793,
+    "NEUT": 518,
+    "PLT": 509,
+    "BASO": 506,
+    "EOS": 502,
+    "WBC": 477,
+    "RBC": 476,
+    "HCT": 476,
+    "HGB": 476,
+    "MCH": 476,
+    "MCHC": 476,
+    "MCV": 476
+  },
+  "dist_n_missing_among_dropped": {
+    "1": 651,
+    "2": 327,
+    "3": 23,
+    "4": 4,
+    "5": 5,
+    "6": 1,
+    "9": 4,
+    "14": 472
+  },
+  "core_analyte_bias_kept_vs_dropped": {
+    "HGB": {
+      "kept_median": 13.9,
+      "dropped_median": 12.4,
+      "kept_mean": 13.883,
+      "dropped_mean": 12.34,
+      "n_dropped_with_value": 1011
+    },
+    "WBC": {
+      "kept_median": 6.48,
+      "dropped_median": 7.535,
+      "kept_mean": 6.908,
+      "dropped_mean": 24.07,
+      "n_dropped_with_value": 1010
+    },
+    "PLT": {
+      "kept_median": 248.0,
+      "dropped_median": 239.0,
+      "kept_mean": 254.426,
+      "dropped_mean": 239.693,
+      "n_dropped_with_value": 978
+    },
+    "RBC": {
+      "kept_median": 4.6,
+      "dropped_median": 4.65,
+      "kept_mean": 4.607,
+      "dropped_mean": 4.485,
+      "n_dropped_with_value": 1011
+    },
+    "HCT": {
+      "kept_median": 40.6,
+      "dropped_median": 38.7,
+      "kept_mean": 40.677,
+      "dropped_mean": 38.113,
+      "n_dropped_with_value": 1011
+    }
+  },
+  "note": "Exclusion is NOT random: it is dominated by missing RDW-SD (an analyte that is not always reported) plus a pool of entirely empty records. The core-analyte comparison tests whether the discarded records (empty ones aside) differ clinically from the records that were kept."
+}
