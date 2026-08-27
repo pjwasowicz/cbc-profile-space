@@ -23,10 +23,10 @@ SEED = 42
 # only - duplicating it per script is how the steps drifted apart before.
 MARGIN = 0.14
 
-# Raster resolution for every saved figure. 300 dpi is the threshold most
-# publishers state; defined here for the same reason as MARGIN, so the figures
+# Raster resolution for every saved figure. Diagnostics asks for "preferably no
+# less than 600 dpi"; defined here for the same reason as MARGIN, so the figures
 # cannot drift apart from one another.
-FIG_DPI = 300
+FIG_DPI = 600
 
 # Repo root = one level above this file (src/common.py -> repo/)
 REPO_ROOT = Path(__file__).resolve().parents[1]
