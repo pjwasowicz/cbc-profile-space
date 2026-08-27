@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software or dataset, please cite it as below."
 title: "Structure of the Discretized Complete Blood Count Profile Space: analysis code and aggregate data"
+doi: 10.5281/zenodo.22124595
+repository-code: "https://github.com/pjwasowicz/cbc-profile-space"
 abstract: >-
   Pipeline that maps complete blood count records into a space of qualitative
   profiles (each analyte discretized into five ordinal states relative to its own

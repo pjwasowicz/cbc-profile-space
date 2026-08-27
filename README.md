@@ -1,5 +1,8 @@
 # Structure of the Discretized Complete Blood Count Profile Space
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22124595.svg)](https://doi.org/10.5281/zenodo.22124595)
+[![verify](https://github.com/pjwasowicz/cbc-profile-space/actions/workflows/ci.yml/badge.svg)](https://github.com/pjwasowicz/cbc-profile-space/actions/workflows/ci.yml)
+
 Analysis code and aggregate data for:
 
 > Paweł Wąsowicz, Jakub Swadźba, Tomasz Anyszek.
