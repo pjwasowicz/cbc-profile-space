@@ -15,16 +15,16 @@ authors:
   - family-names: "Wąsowicz"
     given-names: "Paweł"
     orcid: "https://orcid.org/0009-0004-7139-9482"
-    affiliation: "Faculty of Medicine, Collegium Medicum, Andrzej Frycz Modrzewski Krakow University, Kraków, Poland"
+    affiliation: "Faculty of Medicine, Collegium Medicum, Andrzej Frycz Modrzewski Krakow University, Kraków, Poland; Diagnostyka S.A., Kraków, Poland"
     email: "pawel.wasowicz@diag.pl"
   - family-names: "Swadźba"
     given-names: "Jakub"
     orcid: "https://orcid.org/0000-0001-8757-360X"
-    affiliation: "Faculty of Medicine, Collegium Medicum, Andrzej Frycz Modrzewski Krakow University, Kraków, Poland"
+    affiliation: "Faculty of Medicine, Collegium Medicum, Andrzej Frycz Modrzewski Krakow University, Kraków, Poland; Diagnostyka S.A., Kraków, Poland"
   - family-names: "Anyszek"
     given-names: "Tomasz"
     orcid: "https://orcid.org/0000-0003-3416-5658"
-    affiliation: "Diagnostyka S.A., Kraków, Poland"
+    affiliation: "Faculty of Medicine, Collegium Medicum, Andrzej Frycz Modrzewski Krakow University, Kraków, Poland; Diagnostyka S.A., Kraków, Poland"
 keywords:
   - complete blood count
   - reference intervals

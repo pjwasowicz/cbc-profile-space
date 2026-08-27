@@ -5,11 +5,11 @@
   "access_right": "open",
   "creators": [
     {"name": "Wąsowicz, Paweł", "orcid": "0009-0004-7139-9482",
-     "affiliation": "Andrzej Frycz Modrzewski Krakow University"},
+     "affiliation": "Andrzej Frycz Modrzewski Krakow University; Diagnostyka S.A."},
     {"name": "Swadźba, Jakub", "orcid": "0000-0001-8757-360X",
-     "affiliation": "Andrzej Frycz Modrzewski Krakow University"},
+     "affiliation": "Andrzej Frycz Modrzewski Krakow University; Diagnostyka S.A."},
     {"name": "Anyszek, Tomasz", "orcid": "0000-0003-3416-5658",
-     "affiliation": "Diagnostyka S.A."}
+     "affiliation": "Andrzej Frycz Modrzewski Krakow University; Diagnostyka S.A."}
   ],
   "keywords": ["complete blood count", "reference intervals", "laboratory medicine",
                "discretization", "reproducible research"],
