@@ -76,7 +76,7 @@ def main() -> None:
                  fontsize=10)
     fig.tight_layout()
     out = exp / f"fig_heatmap_{args.method}.png"
-    fig.savefig(out, dpi=200)
+    fig.savefig(out, dpi=common.FIG_DPI)
     plt.close(fig)
 
     common.write_config(exp, {"experiment": "w8_correlation", "method": args.method,

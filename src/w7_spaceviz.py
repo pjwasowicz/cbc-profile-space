@@ -144,7 +144,7 @@ def fig_graph_hamming(profiles: np.ndarray, counts: np.ndarray, seed: int, out: 
     for s in ax.spines.values():
         s.set_visible(False)
     fig.tight_layout()
-    fig.savefig(out, dpi=200)
+    fig.savefig(out, dpi=common.FIG_DPI)
     plt.close(fig)
     return {"n_nodes": int(len(profiles)), "n_edges": int(adj.sum() / 2),
             "n_isolated_dropped": n_isolated}
@@ -193,7 +193,7 @@ def fig_projection_mds(profiles: np.ndarray, counts: np.ndarray, out: Path) -> d
     ax.set_xlabel("MDS-1"); ax.set_ylabel("MDS-2")
     ax.grid(alpha=0.2, lw=0.5)
     fig.tight_layout()
-    fig.savefig(out, dpi=200)
+    fig.savefig(out, dpi=common.FIG_DPI)
     plt.close(fig)
     return {"n_profiles": int(len(profiles)),
             "explained_variance": [float(x) for x in expl]}
@@ -228,7 +228,7 @@ def fig_projection_tsne(profiles: np.ndarray, counts: np.ndarray, seed: int, out
     ax.set_xlabel("t-SNE-1"); ax.set_ylabel("t-SNE-2")
     ax.grid(alpha=0.2, lw=0.5)
     fig.tight_layout()
-    fig.savefig(out, dpi=200)
+    fig.savefig(out, dpi=common.FIG_DPI)
     plt.close(fig)
     return {"n_profiles": int(n), "perplexity": perplexity}
 
@@ -265,7 +265,7 @@ def fig_profile_heatmap(profiles: np.ndarray, counts: np.ndarray, n_records: int
     fig.legend(handles, labels, loc="lower center", ncol=5, fontsize=7,
                frameon=False, bbox_to_anchor=(0.5, -0.02))
     fig.tight_layout()
-    fig.savefig(out, dpi=200, bbox_inches="tight")
+    fig.savefig(out, dpi=common.FIG_DPI, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -313,7 +313,7 @@ def fig_icicle_shells(profiles: np.ndarray, counts: np.ndarray, n_records: int,
     for s in ("top", "right", "left"):
         ax.spines[s].set_visible(False)
     ax.tick_params(left=False)
-    fig.savefig(out, dpi=200, bbox_inches="tight")
+    fig.savefig(out, dpi=common.FIG_DPI, bbox_inches="tight")
     plt.close(fig)
     return {"shell_record_share": shell_share}
 

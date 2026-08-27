@@ -116,7 +116,7 @@ def main() -> None:
     ax.set_xticks(xs)
     ax.grid(alpha=0.25, lw=0.5, axis="y")
     fig.tight_layout()
-    fig.savefig(exp / "fig_hamming.png", dpi=200)
+    fig.savefig(exp / "fig_hamming.png", dpi=common.FIG_DPI)
     plt.close(fig)
 
     # f_r spectrum: log-log, two series
@@ -130,7 +130,7 @@ def main() -> None:
     ax.legend(fontsize=8)
     ax.grid(alpha=0.25, lw=0.5, which="both")
     fig.tight_layout()
-    fig.savefig(exp / "fig_freq_spectrum.png", dpi=200)
+    fig.savefig(exp / "fig_freq_spectrum.png", dpi=common.FIG_DPI)
     plt.close(fig)
 
     summary = {

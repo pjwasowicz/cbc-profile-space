@@ -91,7 +91,7 @@ def fig_coverage(counts: np.ndarray, out: Path) -> None:
     ax.set_ylim(0, 1.02)
     ax.grid(alpha=0.25, lw=0.5)
     fig.tight_layout()
-    fig.savefig(out, dpi=200)
+    fig.savefig(out, dpi=common.FIG_DPI)
     plt.close(fig)
 
 
@@ -106,7 +106,7 @@ def fig_rank_frequency(counts: np.ndarray, pl: dict, out: Path) -> None:
                      fontsize=9)
     ax.grid(alpha=0.25, lw=0.5, which="both")
     fig.tight_layout()
-    fig.savefig(out, dpi=200)
+    fig.savefig(out, dpi=common.FIG_DPI)
     plt.close(fig)
 
 

@@ -163,7 +163,7 @@ def main() -> None:
     ax.legend(fontsize=8)
     ax.grid(alpha=0.25, lw=0.5)
     fig.tight_layout()
-    fig.savefig(exp / "fig_C_thr.png", dpi=200)
+    fig.savefig(exp / "fig_C_thr.png", dpi=common.FIG_DPI)
     plt.close(fig)
 
     import pandas as pd
